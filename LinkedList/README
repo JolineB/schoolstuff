@@ -1,0 +1,25 @@
+NAME: Joline Barrett					ID: 0850401
+CLASS: CIS2520						DATE: May 23, 2014
+
+-----------------------TESTING--------------------------
+
+For this ADT the testing followed the instrucions for testing given (labstestingpseudocode.c)
+Each function in the code tests for NULL enteries
+Add to front was tested
+	- the array given was ordered in reverse as expected
+	ie array = 1, 2, 3, 4
+	list = 4, 3, 2, 1
+remove from front was tested
+	- the first node in the list was removed as expected
+	list = 4, 3, 2, 1
+	mdoified list = 3, 2, 1
+print list was tested
+	- list was printed as expected
+get Value was tested
+	- got the value of the first node in the list after the node was removed
+	value = 3
+find length was tested
+	- the correct length was given
+	length = 3
+
+All cases were tested.
