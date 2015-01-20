@@ -40,7 +40,7 @@ node * removeFront(node * theList)
 		temp = theList;
 		modList = temp->next;
 		temp->next = NULL;
-		//destroyList(temp);
+		/*destroyList(temp);*/
 		return(modList);
 	}
 }
